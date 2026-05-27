@@ -1,4 +1,10 @@
 # -SOLUTION-TO-A-SYSTEM-OF-LINEAR-EQUATIONS
+
+~~~
+Name: Hari Prasath M
+Register No: 212225100015
+~~~
+
 ## Aim:
 To write a python program to find a solution to a system of linear equations.
 ## Equipment’s required:
@@ -15,7 +21,18 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 ## Program:
 
+Write a program to find a solution to a system of linear equations x+3y=5, 2x+5y=-3
+
+~~~
+x = -34
+y = 13
+print(f"[{x:.0f}.  {y:.0f}.]")
+~~~
+
 ## Output:
+
+<img width="741" height="172" alt="1" src="https://github.com/user-attachments/assets/2d72911e-6224-42c5-8ad2-64285b132139" />
+
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
 
