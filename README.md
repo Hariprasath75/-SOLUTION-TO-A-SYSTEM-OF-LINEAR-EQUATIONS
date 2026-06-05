@@ -23,10 +23,20 @@ End the program
 
 Write a program to find a solution to a system of linear equations x+3y=5, 2x+5y=-3
 
+Write a program to find a solution to a system of linear equations
+5x-3y-10z=-9,
+2x+2y-3z=4,
+-3x-y+5z=-1
 ~~~
-x = -34
-y = 13
-print(f"[{x:.0f}.  {y:.0f}.]")
+import os 
+os.environ["OPENBLAS_NUM_THREADS"]="1"
+import numpy as np 
+matrixA = np.array([[5, -3, -10],
+                    [2, 2, -3],
+                    [-3, -1, 5]])
+constants=np.array([-9,4,-1])
+result=np.linalg.solve(matrixA,constants)
+print(result)
 ~~~
 
 ## Output:
